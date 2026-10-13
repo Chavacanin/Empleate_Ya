@@ -42,12 +42,12 @@ a:hover{
 }
 
 main{
-    background: radial-gradient(rgba(0,0,0,0.59),rgba(0,0,0,0.50)), url(../img/pexels-gustavo-fring-4872061.jpg);
+    background: radial-gradient(rgba(0,0,0,0.49),rgba(0,0,0,0.40)), url(../img/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 25%;
     height: 70vh;
-    width: auto;
+    width: 100%;
 }
 
 .icono {

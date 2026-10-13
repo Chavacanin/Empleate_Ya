@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 20px;
+    background-color: rgb(12, 12, 12);
+}
+
+ .icono img{
+    width: 70px;
+    height: auto;
+    display: block;
+}
+
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    transition: 0.4s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(238, 242, 247);
+}
+
+main{
+    background: radial-gradient(rgba(0,0,0,0.59),rgba(0,0,0,0.50)), url(../img/pexels-gustavo-fring-4872061.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+    height: 70vh;
+    width: auto;
+}
+
+.icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-weight: 900;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+span{
+    font-weight: 900;
+    font-size: 25px;
+    color: blue;
+}
+.botones{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+}
+
+.botones button{
+    background-color: transparent;
+    color: darkgoldenrod;
+    height: 29px;
+    width: 90px;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.botones button:hover{
+    color: rgb(231, 232, 233);
+}
+
+.botones button, .botones a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 42px;
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+}
+
+.botones3{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+h1{
+    color: aliceblue;
+    padding: 50px 70px;
+    font-size: 50px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: left;
+    padding: 20px 70px;
+    gap: 20px;
+}
+.busqueda input{
+    width: 690px;
+    height: 50px;
+}
+.busqueda .bot{
+    background-color:transparent;
+    color: darkgoldenrod;
+    border-radius: 10px;
+    width: 90px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.subtitulo{
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    padding: 1px 70px;
+}
+
+.busqueda .bot:hover{
+    color: rgb(242, 245, 246);
+}
+
+.black{
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+}
+
+.black:hover{
+    color: rgb(49, 133, 213);
+}
+#categoriaspopulares{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.categorias{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 20px;
+}
+
+.sub{
+    text-align: center;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+}
+
+.izquierdo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.derecho{
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    width: 100%;
+
+}
+
+.qs2{
+    color: darkgoldenrod;
+    padding: 50px;
+    text-align: center;
+}
+
+.texto2{
+    padding: 12px;
+}
+
+#buscarempleo{
+    background: radial-gradient(rgba(0, 0, 0, 0.45), rgba(0,0,0,0.50)), url(../img/chica3.jpg);
+    height: 70vh;
+    background-position: center 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

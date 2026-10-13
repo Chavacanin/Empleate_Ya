@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crear Cuenta</title>
+        <link rel="stylesheet" href="/assets/css/cuenta.css">
+        <link rel="shortcut icon" href="/assets/icon/icono.png" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <h1>Creacion de Cuenta</h1>
+            <form action="formulario" method="post" class="formulario">
+                <label for="texto">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo" placeholder="ingrese un correo electronico" required>
+                <label for="contrasena">Contraseña</label>
+                <input type="text" name="contrasena" id="contrasena" placeholder="Ingrese una contraseña" required>
+                <p class="parrafo">Estoy de acuerdo en brindar mis datos</p>
+                <input type="checkbox" name="aceptacion" id="aceptacion" required>
+                <button type="submit">Crear Cuenta</button>
+            </form>
+        </main>
+    </body>
+</html>
